@@ -23,5 +23,6 @@ namespace TrabajoJuegoGato
         //1516165156
         //4654
         //654564156
+        //32132132
     }
 }
