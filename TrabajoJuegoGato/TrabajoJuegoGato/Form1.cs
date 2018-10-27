@@ -17,12 +17,19 @@ namespace TrabajoJuegoGato
             InitializeComponent();
         }
 
-        //Juego del gato.
-        //Hola
-        //Hola a todos
-        //1516165156
-        //4654
-        //654564156
-        //32132132
+        private void BotonNuevo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BotonReinicio_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BotonSalida_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
