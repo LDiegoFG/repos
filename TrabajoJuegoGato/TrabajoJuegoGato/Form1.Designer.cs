@@ -40,6 +40,8 @@
             this.lblRondas = new System.Windows.Forms.Label();
             this.lblJugador1 = new System.Windows.Forms.Label();
             this.lblJugador2 = new System.Windows.Forms.Label();
+            this.labelReiniciar = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pb1x2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb1x1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb2x1)).BeginInit();
@@ -151,11 +153,31 @@
             this.lblJugador2.TabIndex = 3;
             this.lblJugador2.Text = "Jugador2";
             // 
+            // labelReiniciar
+            // 
+            this.labelReiniciar.AutoSize = true;
+            this.labelReiniciar.Location = new System.Drawing.Point(561, 287);
+            this.labelReiniciar.Name = "labelReiniciar";
+            this.labelReiniciar.Size = new System.Drawing.Size(48, 13);
+            this.labelReiniciar.TabIndex = 4;
+            this.labelReiniciar.Text = "Reiniciar";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(548, 324);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // FrmGato
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(779, 397);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.labelReiniciar);
             this.Controls.Add(this.lblJugador2);
             this.Controls.Add(this.lblJugador1);
             this.Controls.Add(this.lblRondas);
@@ -198,6 +220,8 @@
         private System.Windows.Forms.Label lblRondas;
         private System.Windows.Forms.Label lblJugador1;
         private System.Windows.Forms.Label lblJugador2;
+        private System.Windows.Forms.Label labelReiniciar;
+        private System.Windows.Forms.Button button1;
     }
 }
 

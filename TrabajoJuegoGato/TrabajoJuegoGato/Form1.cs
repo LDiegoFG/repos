@@ -16,5 +16,10 @@ namespace TrabajoJuegoGato
         {
             InitializeComponent();
         }
+
+        //Juego del gato.
+        //Hola
+        //Hola a todos
+
     }
 }
