@@ -16,5 +16,20 @@ namespace TrabajoJuegoGato
         {
             InitializeComponent();
         }
+
+        private void BotonNuevo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BotonReinicio_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BotonSalida_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
